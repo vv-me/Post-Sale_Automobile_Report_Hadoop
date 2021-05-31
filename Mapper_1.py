@@ -1,9 +1,9 @@
 import sys
 # input comes from STDIN (standard input)
+vin_list = []
 for line in sys.stdin:
-    incident_id,vin_number = line.split(",")
-    print(incident_id,"vidya",vin_number) 
-    #incident_id, incident_type, vin_number, make, model, year, Incident_year, description= line.split(",")
+   incident_id, incident_type, vin_number, make, model, year, Incident_date, description  = line.split(",")
+   vin_list.append([vin_number,incident_type, make, year])
 # [derive mapper output key values]
-print ('%s\t%s' % (vin_number, incident_id))
+print(vin_list)
 
