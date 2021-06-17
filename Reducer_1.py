@@ -1,4 +1,4 @@
-#!C:\Users\vra\Anaconda3\python.exe
+#!/usr/bin/env python
 import sys
 # [Define group level master information]
 def reset():

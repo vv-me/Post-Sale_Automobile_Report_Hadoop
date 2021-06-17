@@ -1,4 +1,4 @@
-#!C:\Users\vra\Anaconda3\python.exe
+#!/usr/bin/env python
 import sys
 dict = {}
 for line in sys.stdin:

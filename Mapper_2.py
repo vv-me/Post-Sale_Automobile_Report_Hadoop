@@ -1,4 +1,4 @@
-#!C:\Users\vra\Anaconda3\python.exe
+#!/usr/bin/env python
 import sys
 for line in sys.stdin:
     line = line.strip().split("\t")
