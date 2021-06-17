@@ -4,4 +4,5 @@ for line in sys.stdin:
     line = line.strip().split("\t")
     make = line[1]
     year = line[2]
-    print('%s\t%s\t%d' %(make,year,1))
+    print("%s_%s\t%d" %(make,year,1))
+
